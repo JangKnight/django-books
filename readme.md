@@ -1,5 +1,7 @@
 # Book Store
 
+**A simple Django application for managing a book store. Users can add books with their title, author, and rating, and view the list of available books. Books can also be deleted from the list.**
+
 ## EZ start
 
 1. Clone the repository
