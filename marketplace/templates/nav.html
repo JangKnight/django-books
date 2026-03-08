@@ -1,0 +1,17 @@
+{% load static %} {% block nav %}
+<!-- Navigation Bar with option to add book form-->
+<nav class="bg-gray-800 p-4">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="{% url 'index' %}" class="text-white text-lg font-bold"
+      >Book Store</a
+    >
+    <div>
+      <a
+        href="{% url 'add_book' %}"
+        class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+        >Add Book</a
+      >
+    </div>
+  </div>
+</nav>
+{% endblock %}
